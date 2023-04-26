@@ -154,9 +154,9 @@ public class TestSuit {
         // Open Login Page
         clickOnElement(By.className("ico-login"));
         // Enter your email address
-        typeText(By.id("Email"), "manhararya25@gmail.com");
+        typeText(By.id("Email"), "testsuit11@gmail.com");
         // Enter Password
-        typeText(By.id("Password"), "1111aaaa");
+        typeText(By.id("Password"), "abc1234");
         // Click Log in button
         clickOnElement(By.xpath("//div[@class=\"buttons\"]//button[@class=\"button-1 login-button\"]"));
         // Choose Apple MacBook Pro 13-inch
@@ -181,7 +181,7 @@ public class TestSuit {
         clickOnElement(By.className("ico-register"));
         typeText(By.id("FirstName"), "Test");
         typeText(By.id("LastName"), "Suit");
-        typeText(By.name("Email"), "abcd11@gmail.com");
+        typeText(By.name("Email"), "testsuit11@gmail.com");
         typeText(By.id("Password"), "abc1234");
         typeText(By.id("ConfirmPassword"), "abc1234");
         // Complete registration
@@ -189,7 +189,7 @@ public class TestSuit {
         // Open Login Page
         clickOnElement(By.className("ico-login"));
         // Enter your email address
-        typeText(By.id("Email"), "abcd11@gmail.com");
+        typeText(By.id("Email"), "testsuit11@gmail.com");
         // Enter Password
         typeText(By.id("Password"), "abc1234");
         // Click Log in button
